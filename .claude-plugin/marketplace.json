@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mindgrapes",
+  "owner": {
+    "name": "Mind Grapes"
+  },
+  "plugins": [
+    {
+      "name": "mindgrapes-session",
+      "source": "./plugins/mindgrapes-session"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mindgrapes-session",
+  "displayName": "Mind Grapes Session Brief",
+  "description": "Review a Claude Code session and capture only the parts worth remembering across projects into Mind Grapes. Approval-gated, deduped, capped at five captures.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "mindgrapes",
+    "memory",
+    "mcp",
+    "second-brain"
+  ]
+}
