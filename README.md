@@ -3,6 +3,18 @@
 Claude Code plugins for [Mind Grapes](https://github.com/JoeCotellese/mindgrapes-server), a
 self-hosted, MCP-accessible second brain.
 
+## Requires a Mind Grapes server
+
+These plugins are clients, not a memory store. They do nothing on their own. You need a
+running Mind Grapes server somewhere you can reach, connected to Claude Code as an MCP
+server, exposing `capture_thought`, `search_thoughts`, and `resolve_disambiguation`.
+
+Install and run it first: **[JoeCotellese/mindgrapes-server](https://github.com/JoeCotellese/mindgrapes-server)**.
+It is self-hosted, so "somewhere" can be your laptop, a homelab box, or a small cloud
+instance.
+
+## Install
+
 This repository is a plugin marketplace. Add it once, then install the plugins you want.
 
 ```
@@ -42,12 +54,6 @@ Usage:
 - `/brief` — sweep the current session
 - `/brief <hint>` — bias the sweep toward one thread
 - `/brief --auto` — capture survivors without the approval step
-
-## Requirements
-
-A reachable Mind Grapes MCP server exposing `capture_thought`, `search_thoughts`, and
-`resolve_disambiguation`. See the
-[server repository](https://github.com/JoeCotellese/mindgrapes-server) for setup.
 
 ## Design notes
 
