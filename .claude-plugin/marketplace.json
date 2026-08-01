@@ -7,7 +7,10 @@
   "plugins": [
     {
       "name": "mindgrapes-session",
-      "source": "./plugins/mindgrapes-session"
+      "version": "0.1.0",
+      "source": "./plugins/mindgrapes-session",
+      "category": "productivity",
+      "description": "Sweep a Claude Code session and capture only what is worth remembering across projects into Mind Grapes. Approval-gated, deduped, capped at five."
     }
   ]
 }
