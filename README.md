@@ -1,6 +1,6 @@
 # Mind Grapes plugins
 
-Claude Code plugins for [Mind Grapes](https://github.com/JoeCotellese/mindgrapes-server), a
+Claude Code plugins for [Mind Grapes](https://github.com/MindgrapesApp/mindgrapes-server), a
 self-hosted, MCP-accessible second brain.
 
 ## Requires a Mind Grapes server
@@ -9,7 +9,7 @@ These plugins are clients, not a memory store. They do nothing on their own. You
 running Mind Grapes server somewhere you can reach, connected to Claude Code as an MCP
 server, exposing `capture_thought`, `search_thoughts`, and `resolve_disambiguation`.
 
-Install and run it first: **[JoeCotellese/mindgrapes-server](https://github.com/JoeCotellese/mindgrapes-server)**.
+Install and run it first: **[MindgrapesApp/mindgrapes-server](https://github.com/MindgrapesApp/mindgrapes-server)**.
 It is self-hosted, so "somewhere" can be your laptop, a homelab box, or a small cloud
 instance.
 
@@ -18,7 +18,7 @@ instance.
 This repository is a plugin marketplace. Add it once, then install the plugins you want.
 
 ```
-/plugin marketplace add JoeCotellese/mindgrapes-plugins
+/plugin marketplace add MindgrapesApp/mindgrapes-plugins
 /plugin install mindgrapes-session@mindgrapes
 ```
 
